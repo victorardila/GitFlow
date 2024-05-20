@@ -66,6 +66,21 @@ git remote set-head origin -a
 `Renombrar una rama creada de mi repositorio`
 
 Nota: esta rama ya tiene cambios y puede que hayan mas ramas en el mismo repoitorio
+Si la consola arroja un error como este:
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Valfonsoardila10/Admin-Pharm-con-BD-Proyecto.git
+To https://github.com/VictorArdila/Admin-Pharm-con-BD-Proyecto.git
+ ! [remote rejected] main (refusing to delete the current branch: refs/heads/main)
+error: failed to push some refs to 'https://github.com/VictorArdila/Admin-Pharm-con-BD-Proyecto.git'
+
+Es porque no se permite eliminar ramas principales del repositorio asi que tendras que cambiar esto en configuracion del repositorio
+
+Pasos:
+
+Ve a tu repositorio en GitHub.
+- Haz clic en "Settings" (Configuración).
+- En el panel lateral, haz clic en "Branches" (Ramas).
+- En la sección "Default branch" (Rama por defecto), cambia la rama por defecto a una rama diferente, por ejemplo, develop o cualquier otra que tengas disponible
 
 ```bash
 git checkout old-branch-name
