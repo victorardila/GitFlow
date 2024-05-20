@@ -65,6 +65,22 @@ git remote set-head origin -a
 ```
 `Renombrar una rama creada de mi repositorio`
 
+```bash
+git checkout old-branch-name
+```
+```bash
+git branch -m new-branch-name
+```
+```bash
+git push origin --delete old-branch-name
+```
+```bash
+git push origin -u new-branch-name
+```
+```bash
+git branch -d doc
+```
+
 Nota: esta rama ya tiene cambios y puede que hayan mas ramas en el mismo repoitorio
 Si la consola arroja un error como este:
 
@@ -83,21 +99,6 @@ Ve a tu repositorio en GitHub.
 - En el panel lateral, haz clic en "Branches" (Ramas).
 - En la sección "Default branch" (Rama por defecto), cambia la rama por defecto a una rama diferente, por ejemplo, develop o cualquier otra que tengas disponible
 
-```bash
-git checkout old-branch-name
-```
-```bash
-git branch -m new-branch-name
-```
-```bash
-git push origin --delete old-branch-name
-```
-```bash
-git push origin -u new-branch-name
-```
-```bash
-git branch -d doc
-```
 
 
 
