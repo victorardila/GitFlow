@@ -65,7 +65,9 @@ git flow hotfix finish <nombre-hotfix>
 Para más detalles sobre la implementación y uso de Git Flow, consulta los siguientes recursos:
 
 GFourmis: GitFlow: ¿Qué es y cómo aplicarlo?
+
 https://gfourmis.co/gitflow-sin-morir-en-el-intento/
 
 Desarrollowp: Aprende Git de manera sencilla
+
 DEV Community: Git-Flow: Lo Esencial
