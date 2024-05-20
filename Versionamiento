@@ -1,56 +1,24 @@
-Git Flow es una estrategia de trabajo en Git que facilita la gestión de ramas y la implementación de nuevas funcionalidades, correcciones, y despliegues. Aquí tienes una guía básica en español sobre Git Flow:
+# Guía de Git Flow
 
-Principales Ramas en Git Flow
-master: Contiene el código en producción.
-develop: Contiene el último código desarrollado y probado.
-Ramas Auxiliares
-feature/: Se utilizan para desarrollar nuevas funcionalidades. Nacen de la rama develop y al finalizar se fusionan de nuevo en develop.
-release/: Preparan el código para una nueva versión. Nacen de develop y se fusionan en master y develop una vez finalizadas.
-hotfix/: Se utilizan para corregir errores críticos en producción. Nacen de master y se fusionan en master y develop.
-Iniciar Git Flow
-Para iniciar Git Flow en tu proyecto, puedes seguir estos pasos:
+## Introducción a Git Flow
+Git Flow es una estrategia de trabajo en Git que facilita la gestión de ramas y la implementación de nuevas funcionalidades, correcciones y despliegues. 
 
-Inicializar Git Flow:
+## Principales Ramas en Git Flow
+1. **master**: Contiene el código en producción.
+2. **develop**: Contiene el último código desarrollado y probado.
 
-sh
-Copiar código
+## Ramas Auxiliares
+1. **feature/**: Se utilizan para desarrollar nuevas funcionalidades. Nacen de la rama `develop` y al finalizar se fusionan de nuevo en `develop`.
+2. **release/**: Preparan el código para una nueva versión. Nacen de `develop` y se fusionan en `master` y `develop` una vez finalizadas.
+3. **hotfix/**: Se utilizan para corregir errores críticos en producción. Nacen de `master` y se fusionan en `master` y `develop`.
+
+## Comandos de Git Flow
+
+### Iniciar Git Flow
+Para iniciar Git Flow en tu proyecto:
+```sh
 git flow init
-Crear una nueva funcionalidad:
 
-sh
-Copiar código
-git flow feature start <nombre-feature>
-Finalizar una funcionalidad:
+## Crear una Nueva Funcionalidad
+Para crear una nueva funcionalidad:
 
-sh
-Copiar código
-git flow feature finish <nombre-feature>
-Crear una nueva versión (release):
-
-sh
-Copiar código
-git flow release start <nombre-release>
-Finalizar una versión:
-
-sh
-Copiar código
-git flow release finish <nombre-release>
-Crear una corrección rápida (hotfix):
-
-sh
-Copiar código
-git flow hotfix start <nombre-hotfix>
-Finalizar una corrección rápida:
-
-sh
-Copiar código
-git flow hotfix finish <nombre-hotfix>
-Beneficios de Git Flow
-Mejora la organización del código.
-Facilita la colaboración en equipos grandes.
-Ayuda a mantener el control de versiones y la estabilidad del código en producción.
-Puedes encontrar más detalles sobre la implementación y uso de Git Flow en los siguientes recursos:
-
-GFourmis: GitFlow: ¿Qué es y cómo aplicarlo?
-Desarrollowp: Aprende Git de manera sencilla
-DEV Community: Git-Flow: Lo Esencial
