@@ -63,3 +63,25 @@ git branch -u origin/dev dev
 ```bash
 git remote set-head origin -a
 ```
+`Renombrar una rama creada de mi repositorio`
+
+Nota: esta rama ya tiene cambios y puede que hayan mas ramas en el mismo repoitorio
+
+```bash
+git checkout old-branch-name
+```
+```bash
+git branch -m new-branch-name
+```
+```bash
+git push origin --delete old-branch-name
+```
+```bash
+git push origin -u new-branch-name
+```
+```bash
+git branch -d doc
+```
+
+
+
