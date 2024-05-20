@@ -67,6 +67,7 @@ git remote set-head origin -a
 
 Nota: esta rama ya tiene cambios y puede que hayan mas ramas en el mismo repoitorio
 Si la consola arroja un error como este:
+
 remote: This repository moved. Please use the new location:
 remote:   https://github.com/Valfonsoardila10/Admin-Pharm-con-BD-Proyecto.git
 To https://github.com/VictorArdila/Admin-Pharm-con-BD-Proyecto.git
