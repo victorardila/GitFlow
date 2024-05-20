@@ -18,3 +18,54 @@ Git Flow es una estrategia de trabajo en Git que facilita la gestión de ramas y
 Para iniciar Git Flow en tu proyecto:
 ```sh
 git flow init
+```
+
+## Crear una Nueva Funcionalidad
+Para crear una nueva funcionalidad:
+```sh
+git flow feature start <nombre-feature>
+```
+
+## Finalizar una Funcionalidad
+Para finalizar una funcionalidad:
+```sh
+git flow feature finish <nombre-feature>
+```
+
+## Crear una Nueva Versión (release)
+Para crear una nueva versión:
+```sh
+git flow release start <nombre-release>
+```
+
+## Finalizar una Versión
+Para finalizar una versión:
+```sh
+git flow release finish <nombre-release>
+```
+
+## Crear una Corrección Rápida (hotfix)
+Para crear una corrección rápida:
+```sh
+git flow hotfix start <nombre-hotfix>
+```
+
+## Finalizar una Corrección Rápida
+Para finalizar una corrección rápida:
+```sh
+git flow hotfix finish <nombre-hotfix>
+```
+
+## Beneficios de Git Flow
+- Mejora la organización del código.
+- Facilita la colaboración en equipos grandes.
+- Ayuda a mantener el control de versiones y la estabilidad del código en producción.
+
+## Recursos Adicionales
+Para más detalles sobre la implementación y uso de Git Flow, consulta los siguientes recursos:
+
+GFourmis: GitFlow: ¿Qué es y cómo aplicarlo?
+https://gfourmis.co/gitflow-sin-morir-en-el-intento/
+
+Desarrollowp: Aprende Git de manera sencilla
+DEV Community: Git-Flow: Lo Esencial
