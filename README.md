@@ -2,7 +2,9 @@
 Para trabajar con el esquema de mis repositorios lo trabajo asi:
 ## `Creacion de repositorios`
 `Cambiar nombre de ramas al iniciar proyecto`
+
 Inicializa git
+
 ```bash
 git init
 ```
