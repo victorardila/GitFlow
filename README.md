@@ -99,6 +99,9 @@ Ve a tu repositorio en GitHub.
 - En el panel lateral, haz clic en "Branches" (Ramas).
 - En la sección "Default branch" (Rama por defecto), cambia la rama por defecto a una rama diferente, por ejemplo, develop o cualquier otra que tengas disponible
 
-
-
-
+### Hacer Push a repo existente:
+```sh
+git remote add origin https://github.com/Databeatinnovaciones/beatconnect-launch-mvp.git
+git branch -M main
+git push -u origin main
+```
